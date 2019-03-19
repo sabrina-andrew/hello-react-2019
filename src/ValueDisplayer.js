@@ -2,7 +2,8 @@ import React, { Component } from "react";
 
 class ValueDisplayer extends Component {
   render() {
-    return <span>0</span>;
+    const { currentValue } = this.props;
+    return <span>{currentValue}</span>;
   }
 }
 

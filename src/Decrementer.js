@@ -2,7 +2,8 @@ import React, { Component } from "react";
 
 class Decrementer extends Component {
   render() {
-    return <button>++</button>;
+    const { decrement } = this.props;
+    return <button onClick={decrement}>--</button>;
   }
 }
 

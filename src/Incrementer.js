@@ -2,7 +2,8 @@ import React, { Component } from "react";
 
 class Incrementer extends Component {
   render() {
-    return <button>++</button>;
+    const { increment } = this.props;
+    return <button onClick={increment}>++</button>;
   }
 }
 
