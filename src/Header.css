@@ -1,0 +1,10 @@
+header{
+    height: 10vh; 
+    background-Color: #777;
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    margin: 1em;
+}
